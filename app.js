@@ -3,11 +3,21 @@ const planes = [
   { name: "bomber", numbers: [1, 2, 18, 24, 25, 26, 29, 52] },
 ];
 
-const set1 = [planes.forEach((planes) => (planes.numbers))];
+console.log(planes[0].numbers);
 
-planes.forEach((planes) => console.log(planes.numbers));
+//const set1 = [planes.forEach((planes) => (planes.numbers))];
 
-planes.forEach((planes) => console.log(planes.numbers));
+planes[0].numbers.forEach((n) => console.log(n));
+
+
+
+planes.forEach((plane) => 
+  plane.numbers.forEach(
+    (n) => console.log(n)  
+
+));
+/*
+
 
 
 //for (let i = 0; i < planes.length; i++) {
@@ -28,3 +38,6 @@ const array = [1, 2, 3, 4, 5];
 for (let i = 0; i < array.length; i++) {
   console.log(array[i]);
 }
+
+
+*/
