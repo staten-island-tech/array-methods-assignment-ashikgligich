@@ -14,7 +14,6 @@ planes[0].numbers.forEach((n) => console.log(n));
 planes.forEach((plane) => 
   plane.numbers.forEach(
     (n) => console.log(n)  
-
 ));
 /*
 
